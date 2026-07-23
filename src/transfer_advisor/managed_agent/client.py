@@ -8,9 +8,10 @@ stream into UI-friendly events.
 from __future__ import annotations
 
 import os
+import time
 from collections.abc import Iterator
 from dataclasses import dataclass
-from typing import Any
+from typing import Any, Callable
 
 
 @dataclass(frozen=True)
@@ -26,6 +27,7 @@ class HarnessReply:
     activity: tuple[dict[str, Any], ...] = ()
     usage: dict[str, Any] | None = None
     stop_reason: str | None = None
+    timing: dict[str, Any] | None = None
 
 
 class HarnessClient:
@@ -36,6 +38,7 @@ class HarnessClient:
         region_name: str = "us-west-2",
         qualifier: str | None = None,
         client: Any = None,
+        clock: Callable[[], float] = time.perf_counter,
     ) -> None:
         if not harness_arn:
             raise ValueError("harness_arn must not be empty")
@@ -48,6 +51,7 @@ class HarnessClient:
         self._client = client
         self._harness_arn = harness_arn
         self._qualifier = qualifier
+        self._clock = clock
 
     def stream(
         self,
@@ -139,6 +143,9 @@ class HarnessClient:
         actor_id: str | None = None,
         completed_courses: list[str] | None = None,
     ) -> HarnessReply:
+        started_at = self._clock()
+        first_event_ms: float | None = None
+        first_text_ms: float | None = None
         text_parts: list[str] = []
         activity: list[dict[str, Any]] = []
         usage: dict[str, Any] | None = None
@@ -150,20 +157,38 @@ class HarnessClient:
             actor_id=actor_id,
             completed_courses=completed_courses,
         ):
+            elapsed_ms = round((self._clock() - started_at) * 1000, 1)
+            if first_event_ms is None:
+                first_event_ms = elapsed_ms
             if event.kind == "text":
+                if first_text_ms is None:
+                    first_text_ms = elapsed_ms
                 text_parts.append(event.text)
             elif event.kind in {"tool_start", "tool_metadata"}:
-                activity.append({"kind": event.kind, "text": event.text, **(event.data or {})})
+                activity.append(
+                    {
+                        "kind": event.kind,
+                        "text": event.text,
+                        "elapsed_ms": elapsed_ms,
+                        **(event.data or {}),
+                    }
+                )
             elif event.kind == "metadata":
                 usage = event.data
             elif event.kind == "stop":
                 stop_reason = event.text
 
+        total_ms = round((self._clock() - started_at) * 1000, 1)
         return HarnessReply(
             text="".join(text_parts).strip(),
             activity=tuple(activity),
             usage=usage,
             stop_reason=stop_reason,
+            timing={
+                "first_event_ms": first_event_ms,
+                "first_text_ms": first_text_ms,
+                "total_ms": total_ms,
+            },
         )
 
 

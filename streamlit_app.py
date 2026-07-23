@@ -15,6 +15,7 @@ Required environment:
 
 from __future__ import annotations
 
+import os
 import uuid
 
 import streamlit as st
@@ -23,10 +24,10 @@ from transfer_advisor.managed_agent import HarnessClient, HarnessReply, client_f
 from transfer_advisor.tools.transcript import TranscriptParseError, parse_transcript_upload
 
 EXAMPLES = [
-    "I want to transfer for mechanical engineering to UCLA — what should I take next?",
+    "What can you help me with?",
     "Tell me about MATH150",
-    "Is Cal-GETC required for UCLA engineering?",
-    "Which GE courses transfer to Cal Poly Pomona?",
+    "How does Cal-GETC work?",
+    "Show live MATH150 sections for Fall 2026",
 ]
 
 st.set_page_config(page_title="AVC Transfer Advising Assistant", page_icon="🎓")
@@ -103,28 +104,63 @@ def _run_turn(prompt: str) -> None:
             "activity": list(reply.activity) if reply is not None else [],
             "usage": reply.usage if reply is not None else None,
             "stop_reason": reply.stop_reason if reply is not None else None,
+            "timing": reply.timing if reply is not None else None,
         }
     )
 
 
 def _render_activity(reply: HarnessReply) -> None:
-    if reply.activity:
-        with st.expander("Managed agent activity"):
-            for event in reply.activity:
-                if event["kind"] == "tool_start":
-                    st.markdown(f"Called **{event['text']}**")
-                elif event.get("text"):
-                    st.caption(event["text"])
-    if reply.usage:
-        with st.expander("Invocation metrics"):
-            st.json(reply.usage, expanded=False)
+    """Show a lightweight status line; keep raw diagnostics out of student UI."""
+    summary: list[str] = []
+    if reply.timing and reply.timing.get("total_ms") is not None:
+        summary.append(f"Answered in {_format_ms(reply.timing['total_ms'])}")
+    tool_count = sum(event["kind"] == "tool_start" for event in reply.activity)
+    if tool_count:
+        summary.append(f"{tool_count} verified data lookup{'s' if tool_count != 1 else ''}")
+    if summary:
+        st.caption("  ·  ".join(summary))
+
+    if os.environ.get("SHOW_AGENT_DIAGNOSTICS", "").lower() in {"1", "true", "yes"}:
+        with st.expander("Developer diagnostics"):
+            st.json(
+                {
+                    "timing": reply.timing,
+                    "activity": list(reply.activity),
+                    "usage": reply.usage,
+                    "stop_reason": reply.stop_reason,
+                },
+                expanded=False,
+            )
+
+
+def _format_ms(value: float | None) -> str:
+    if value is None:
+        return "not reported"
+    return f"{value / 1000:.2f}s"
 
 
 def main() -> None:
     _init_state()
     _inject_styles()
 
-    st.title("🎓 Transfer & Pathway Advising Assistant")
+    st.markdown(
+        """
+        <section class="advisor-hero">
+          <div class="advisor-kicker">AVC TRANSFER PLANNING</div>
+          <h1>Your next step, made clearer.</h1>
+          <p>
+            Explore courses, transfer requirements, general education, and
+            personalized plans using verified academic data.
+          </p>
+          <div class="advisor-trust">
+            <span>✓ Verified pathway data</span>
+            <span>✓ Live section checks</span>
+            <span>✓ Plan validation</span>
+          </div>
+        </section>
+        """,
+        unsafe_allow_html=True,
+    )
 
     # Transcript status banner (set when a PDF is attached to the chat input).
     status = st.session_state.get("transcript_status")
@@ -142,13 +178,22 @@ def main() -> None:
                         activity=tuple(message.get("activity") or []),
                         usage=message.get("usage"),
                         stop_reason=message.get("stop_reason"),
+                        timing=message.get("timing"),
                     )
                 )
 
     # Example prompts (only before the conversation starts).
     pending: str | None = st.session_state.pop("pending", None)
     if not st.session_state.messages and pending is None:
-        st.write("Try one of these:")
+        st.markdown(
+            """
+            <div class="advisor-welcome">
+              <h2>What would you like to figure out?</h2>
+              <p>Choose a starting point or write your own question below.</p>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
         cols = st.columns(2)
         for i, example in enumerate(EXAMPLES):
             if cols[i % 2].button(example, key=f"ex_{i}"):
@@ -157,7 +202,7 @@ def main() -> None:
 
     # The 📎 attach control lives inside the chat input, right next to Send.
     submitted = st.chat_input(
-        "Ask about your transfer pathway…  (attach your transcript with 📎)",
+        "Ask a question or attach your transcript…",
         accept_file=True,
         file_type=["pdf"],
     )
@@ -176,18 +221,180 @@ def main() -> None:
     if prompt or (submitted is not None and submitted.files):
         st.rerun()
 
-    st.caption("Verify any plan with a counselor before registering.")
+    st.markdown(
+        """
+        <div class="advisor-footer">
+          Academic planning support—not a replacement for your counselor.
+          Verify your final plan before registering.
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
 
 
 def _inject_styles() -> None:
-    """Light polish on top of .streamlit/config.toml's #64B5F6/white theme."""
+    """Friendly student-facing visual system for the Streamlit shell."""
     st.markdown(
         """
         <style>
-          .block-container { max-width: 820px; padding-top: 2.2rem; }
-          h1 { color: #1E6FB8; font-weight: 700; }
-          /* Assistant answers on a soft blue-tinted card, user on #64B5F6. */
-          [data-testid="stChatMessage"] { border-radius: 14px; }
+          :root {
+            --advisor-navy: #123454;
+            --advisor-blue: #1e73be;
+            --advisor-sky: #eaf5ff;
+            --advisor-mint: #e9f8f2;
+            --advisor-ink: #18324a;
+            --advisor-muted: #62788d;
+            --advisor-line: #dce8f2;
+          }
+
+          .stApp {
+            background:
+              radial-gradient(circle at 12% 0%, #eef8ff 0, transparent 28rem),
+              linear-gradient(180deg, #ffffff 0%, #f8fbfe 100%);
+            color: var(--advisor-ink);
+          }
+
+          .block-container {
+            max-width: 900px;
+            padding-top: 2rem;
+            padding-bottom: 7rem;
+          }
+
+          .advisor-hero {
+            background: linear-gradient(135deg, #123b61 0%, #1e73be 72%, #3b96d8 100%);
+            border-radius: 24px;
+            box-shadow: 0 16px 40px rgba(30, 85, 128, 0.16);
+            color: white;
+            margin-bottom: 2rem;
+            overflow: hidden;
+            padding: 2.4rem 2.5rem 2.2rem;
+            position: relative;
+          }
+
+          .advisor-hero::after {
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 999px;
+            content: "";
+            height: 15rem;
+            position: absolute;
+            right: -5rem;
+            top: -7rem;
+            width: 15rem;
+          }
+
+          .advisor-kicker {
+            font-size: 0.76rem;
+            font-weight: 750;
+            letter-spacing: 0.14em;
+            margin-bottom: 0.65rem;
+            opacity: 0.82;
+          }
+
+          .advisor-hero h1 {
+            color: white;
+            font-size: clamp(2rem, 5vw, 3.2rem);
+            letter-spacing: -0.04em;
+            line-height: 1.03;
+            margin: 0;
+            max-width: 650px;
+          }
+
+          .advisor-hero p {
+            color: rgba(255, 255, 255, 0.88);
+            font-size: 1.05rem;
+            line-height: 1.6;
+            margin: 1rem 0 1.4rem;
+            max-width: 650px;
+          }
+
+          .advisor-trust {
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 0.82rem;
+            gap: 0.65rem 1.2rem;
+          }
+
+          .advisor-trust span { white-space: nowrap; }
+
+          .advisor-welcome h2 {
+            color: var(--advisor-navy);
+            font-size: 1.35rem;
+            letter-spacing: -0.02em;
+            margin: 0;
+          }
+
+          .advisor-welcome p {
+            color: var(--advisor-muted);
+            margin: 0.35rem 0 1rem;
+          }
+
+          div[data-testid="stButton"] > button {
+            background: rgba(255, 255, 255, 0.92);
+            border: 1px solid var(--advisor-line);
+            border-radius: 15px;
+            box-shadow: 0 6px 18px rgba(35, 83, 122, 0.06);
+            color: var(--advisor-ink);
+            font-weight: 600;
+            justify-content: flex-start;
+            min-height: 4.5rem;
+            padding: 0.8rem 1rem;
+            text-align: left;
+            white-space: normal;
+            width: 100%;
+          }
+
+          div[data-testid="stButton"] > button:hover {
+            background: var(--advisor-sky);
+            border-color: #87bce6;
+            color: var(--advisor-navy);
+            transform: translateY(-1px);
+          }
+
+          [data-testid="stChatMessage"] {
+            background: rgba(255, 255, 255, 0.9);
+            border: 1px solid var(--advisor-line);
+            border-radius: 18px;
+            box-shadow: 0 8px 24px rgba(36, 74, 107, 0.05);
+            margin-bottom: 0.85rem;
+            padding: 0.5rem 0.7rem;
+          }
+
+          [data-testid="stChatMessage"]:has(
+            [data-testid="stChatMessageAvatarUser"]
+          ) {
+            background: var(--advisor-sky);
+            border-color: #c9e4f8;
+          }
+
+          [data-testid="stChatMessage"] [data-testid="stCaptionContainer"] {
+            color: var(--advisor-muted);
+            font-size: 0.76rem;
+          }
+
+          [data-testid="stChatInput"] {
+            background: white;
+            border: 1px solid #cbddea;
+            border-radius: 18px;
+            box-shadow: 0 12px 32px rgba(21, 66, 102, 0.14);
+          }
+
+          .advisor-footer {
+            color: var(--advisor-muted);
+            font-size: 0.78rem;
+            line-height: 1.5;
+            margin-top: 2rem;
+            text-align: center;
+          }
+
+          @media (max-width: 640px) {
+            .block-container { padding-top: 1rem; }
+            .advisor-hero {
+              border-radius: 18px;
+              padding: 1.7rem 1.4rem;
+            }
+            .advisor-hero h1 { font-size: 2rem; }
+            .advisor-trust { align-items: flex-start; flex-direction: column; }
+          }
         </style>
         """,
         unsafe_allow_html=True,
