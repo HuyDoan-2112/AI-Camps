@@ -6,8 +6,9 @@
 Amazon Bedrock AgentCore Harness and keeps only display state plus the stable
 AgentCore session/actor identifiers in `st.session_state`.
 
-There is no React frontend, HTTP API, Lambda function, or DynamoDB session table
-in the demo architecture.
+There is no React frontend, HTTP API, or DynamoDB session table in the demo
+architecture. One stateless Lambda supplies Gateway tools; it does not own
+conversation state or orchestration.
 
 ## Responsibility boundaries
 
@@ -18,6 +19,7 @@ in the demo architecture.
 | Model/tool loop, retries, context, and isolation | Managed service | AgentCore Harness |
 | Tool governance and authentication | Managed service | AgentCore Gateway |
 | Catalog, Cal-GETC, destination policy, and combined pathways | Retrieval | Managed Bedrock Knowledge Base |
+| Current sections, seats, and waitlists | Live operational lookup | AVC Banner via Gateway Lambda target |
 | Prerequisites, units, offerings, articulation, and constraint checks | Deterministic validation | Python structured-store validator |
 
 AgentCore owns the agent loop. Application code does not contain a second loop,
@@ -30,17 +32,19 @@ hardcoded questionnaire, or fixed schedule template.
    interview.
 3. The Harness selects tools exposed through the IAM-authenticated Gateway.
 4. The native managed-KB connector retrieves reviewed source chunks.
-5. After enough student context exists, the model proposes an individualized
+5. When the student asks about current availability, the live tool queries AVC
+   Banner for one course and term and returns a `checked_at` timestamp.
+6. After enough student context exists, the model proposes an individualized
    plan.
-6. Deterministic validation checks that exact proposal and returns factual
+7. Deterministic validation checks that exact proposal and returns factual
    errors and warnings; it never chooses courses or constructs a schedule.
-7. The model revises until the exact proposal passes, then explains the result
+8. The model revises until the exact proposal passes, then explains the result
    with retrieved evidence and counselor-verification boundaries.
 
-The managed KB path is live. The validation function is implemented locally;
-deploying it as an AgentCore Runtime MCP server and attaching it to the Gateway
-is the next infrastructure slice. Until then, the Harness is instructed not to
-emit term-by-term schedules.
+Gateway converts the Lambda tool definitions into MCP tools. This avoids a
+custom MCP server while keeping the Harness responsible for the managed agent
+loop. Current seat counts do not determine whether an academic plan is valid
+and are never copied into static KB content.
 
 ## Data publication
 

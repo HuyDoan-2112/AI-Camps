@@ -6,11 +6,13 @@ The application uses:
 - one private S3 processed-data/Knowledge-Base source bucket;
 - one managed Amazon Bedrock Knowledge Base;
 - one IAM-authenticated AgentCore Gateway with a managed-KB connector;
+- one stateless Lambda target exposing live Banner and deterministic validator
+  tools through that Gateway;
 - one AgentCore Harness with managed memory;
 - one Bedrock text-generation inference profile.
 
-The demo does not require Lambda, DynamoDB, API Gateway, Amplify, or a separate
-frontend deployment.
+The demo does not require DynamoDB, API Gateway, Amplify, or a separate
+frontend deployment. Lambda does not store sessions or run an agent loop.
 
 ## Environment
 
@@ -21,7 +23,7 @@ BEDROCK_KB_ID="$BEDROCK_KB_ID" \
   .venv/bin/python infra/deploy_agentcore.py --bootstrap-iam
 ```
 
-The deployer creates or updates two scoped execution roles in development mode.
+The deployer creates or updates three scoped execution roles in development mode.
 It prints the Harness ARN required by Streamlit. `BEDROCK_MODEL_ID` is an
 optional override for the model pinned in `agentcore/config.json`.
 
@@ -36,6 +38,7 @@ managed-memory, and selected Knowledge Base actions, including:
 - `bedrock-agentcore:CreateEvent`
 - `bedrock-agentcore:ListEvents`
 - `bedrock-agentcore:RetrieveMemoryRecords`
+- `lambda:InvokeFunction` on the advisor-tools function
 
 Scope resources to the selected Knowledge Base and model wherever the AWS API
 supports resource-level permissions.
@@ -64,5 +67,7 @@ Bedrock console or with the AWS SDK.
 - Keep the Knowledge Base managed and confirm its current pricing.
 - Bound Harness iterations, output tokens, and timeout in
   `agentcore/config.json`.
+- Live Banner calls are limited to one course and term per tool invocation and
+  are never aggressively fanned out.
 - Configure an AWS Budget alert before sharing the demo broadly.
 - Do not place long-lived AWS access keys in Streamlit source or Git.

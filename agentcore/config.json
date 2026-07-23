@@ -3,6 +3,8 @@
   "gateway_name": "avc-transfer-advisor",
   "gateway_tool_name": "advisor-data",
   "knowledge_base_target_name": "managed-kb",
+  "advisor_tools_target_name": "advisor-tools",
+  "advisor_tools_function_name": "AvcTransferAdvisorTools",
   "knowledge_base_generate_response": false,
   "model_id": "us.anthropic.claude-sonnet-4-6",
   "max_iterations": 8,
