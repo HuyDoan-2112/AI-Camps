@@ -43,12 +43,22 @@ class HarnessClientTest(unittest.TestCase):
                 },
             ]
         )
-        client = HarnessClient("arn:example:harness", client=fake)
+        clock = iter([10.0, 10.1, 10.2, 10.3, 10.4, 10.5, 10.6]).__next__
+        client = HarnessClient("arn:example:harness", client=fake, clock=clock)
         reply = client.reply("Plan with me", session_id="s" * 33, actor_id="student-1")
 
         self.assertEqual(reply.text, "Hello student")
         self.assertEqual(reply.stop_reason, "end_turn")
         self.assertEqual(reply.activity[0]["kind"], "tool_start")
+        self.assertEqual(reply.activity[0]["elapsed_ms"], 200.0)
+        self.assertEqual(
+            reply.timing,
+            {
+                "first_event_ms": 100.0,
+                "first_text_ms": 100.0,
+                "total_ms": 600.0,
+            },
+        )
         request = fake.requests[0]
         self.assertEqual(
             request["messages"],
