@@ -1,0 +1,31 @@
+{
+  "documentStructureConfiguration": {
+    "type": "RECORD_BASED_STRUCTURE_METADATA",
+    "recordBasedStructureMetadata": {
+      "contentFields": [
+        {
+          "fieldName": "description"
+        }
+      ],
+      "metadataFieldsSpecification": {
+        "fieldsToInclude": [
+          {
+            "fieldName": "course_key"
+          },
+          {
+            "fieldName": "title"
+          },
+          {
+            "fieldName": "source"
+          },
+          {
+            "fieldName": "institution"
+          },
+          {
+            "fieldName": "academic_year"
+          }
+        ]
+      }
+    }
+  }
+}

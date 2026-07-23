@@ -1,0 +1,780 @@
+[
+  {
+    "major_key": "ee_cpp",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "cpp",
+    "academic_year": "2025-2026",
+    "receiving_course_key": "MAT1150",
+    "receiving_title": "Calculus II",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "MATH160"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "ee_cpp",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "cpp",
+    "academic_year": "2025-2026",
+    "receiving_course_key": "MAT2140",
+    "receiving_title": "Calculus III",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "MATH250"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "ee_cpp",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "cpp",
+    "academic_year": "2025-2026",
+    "receiving_course_key": "MAT1140",
+    "receiving_title": "Calculus I",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "MATH150"
+      ],
+      [
+        "MATH150H"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "ee_cpp",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "cpp",
+    "academic_year": "2025-2026",
+    "receiving_course_key": "ECE1310",
+    "receiving_title": "C for Engineers",
+    "status": "not_articulated",
+    "sending_options": [],
+    "reason": "No Course Articulated"
+  },
+  {
+    "major_key": "ee_cpp",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "cpp",
+    "academic_year": "2025-2026",
+    "receiving_course_key": "MAT2240",
+    "receiving_title": "Elementary Linear Algebra and Differential Equations",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "MATH220",
+        "MATH230"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "ee_cpp",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "cpp",
+    "academic_year": "2025-2026",
+    "receiving_course_key": null,
+    "receiving_title": "CHM 1210, CHM 1210L",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "CHEM110"
+      ],
+      [
+        "CHEM110H"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "ee_cpp",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "cpp",
+    "academic_year": "2025-2026",
+    "receiving_course_key": null,
+    "receiving_title": "ECE 2300, ECE 2300L",
+    "status": "not_articulated",
+    "sending_options": [],
+    "reason": "No sending courses listed"
+  },
+  {
+    "major_key": "ee_cpp",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "cpp",
+    "academic_year": "2025-2026",
+    "receiving_course_key": null,
+    "receiving_title": "PHY 1520, PHY 1520L",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "PHYS120"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "ee_cpp",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "cpp",
+    "academic_year": "2025-2026",
+    "receiving_course_key": null,
+    "receiving_title": "PHY 1510, PHY 1510L",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "PHYS110"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "ee_cpp",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "cpp",
+    "academic_year": "2025-2026",
+    "receiving_course_key": null,
+    "receiving_title": "ECE 1101, ECE 1101L",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "ENGR230"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "ee_cpp",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "cpp",
+    "academic_year": "2025-2026",
+    "receiving_course_key": null,
+    "receiving_title": "EGR 1000, EGR 1000L",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "ENGR110"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "me_cpp",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "cpp",
+    "academic_year": "2025-2026",
+    "receiving_course_key": "ME2141",
+    "receiving_title": "Vector Statics",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "ENGR210"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "me_cpp",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "cpp",
+    "academic_year": "2025-2026",
+    "receiving_course_key": "ME2191",
+    "receiving_title": "Mechanics of Materials",
+    "status": "not_articulated",
+    "sending_options": [],
+    "reason": "No Course Articulated"
+  },
+  {
+    "major_key": "me_cpp",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "cpp",
+    "academic_year": "2025-2026",
+    "receiving_course_key": "ME2150",
+    "receiving_title": "Vector Dynamics",
+    "status": "not_articulated",
+    "sending_options": [],
+    "reason": "No Course Articulated"
+  },
+  {
+    "major_key": "me_cpp",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "cpp",
+    "academic_year": "2025-2026",
+    "receiving_course_key": "ME1001L",
+    "receiving_title": "Engineering Graphics and Visualization Laboratory",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "ENGR140"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "me_cpp",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "cpp",
+    "academic_year": "2025-2026",
+    "receiving_course_key": "MAT2240",
+    "receiving_title": "Elementary Linear Algebra and Differential Equations",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "MATH220",
+        "MATH230"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "me_cpp",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "cpp",
+    "academic_year": "2025-2026",
+    "receiving_course_key": "MAT2140",
+    "receiving_title": "Calculus III",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "MATH250"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "me_cpp",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "cpp",
+    "academic_year": "2025-2026",
+    "receiving_course_key": "MAT1140",
+    "receiving_title": "Calculus I",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "MATH150"
+      ],
+      [
+        "MATH150H"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "me_cpp",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "cpp",
+    "academic_year": "2025-2026",
+    "receiving_course_key": "MAT1150",
+    "receiving_title": "Calculus II",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "MATH160"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "me_cpp",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "cpp",
+    "academic_year": "2025-2026",
+    "receiving_course_key": null,
+    "receiving_title": "ME 1101, ME 1101L",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "ENGR125"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "me_cpp",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "cpp",
+    "academic_year": "2025-2026",
+    "receiving_course_key": null,
+    "receiving_title": "EGR 1000, EGR 1000L",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "ENGR110"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "me_cpp",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "cpp",
+    "academic_year": "2025-2026",
+    "receiving_course_key": null,
+    "receiving_title": "CHM 1210, CHM 1210L",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "CHEM110"
+      ],
+      [
+        "CHEM110H"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "me_cpp",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "cpp",
+    "academic_year": "2025-2026",
+    "receiving_course_key": null,
+    "receiving_title": "PHY 1510, PHY 1510L",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "PHYS110"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "me_cpp",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "cpp",
+    "academic_year": "2025-2026",
+    "receiving_course_key": null,
+    "receiving_title": "PHY 1520, PHY 1520L",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "PHYS120"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "ee_ucla",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "ucla",
+    "academic_year": "2025-2026",
+    "receiving_course_key": "CHEM20A",
+    "receiving_title": "Chemical Structure",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "CHEM110"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "ee_ucla",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "ucla",
+    "academic_year": "2025-2026",
+    "receiving_course_key": "MATH31A",
+    "receiving_title": "Differential and Integral Calculus",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "MATH150"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "ee_ucla",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "ucla",
+    "academic_year": "2025-2026",
+    "receiving_course_key": "MATH31B",
+    "receiving_title": "Integration and Infinite Series",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "MATH160"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "ee_ucla",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "ucla",
+    "academic_year": "2025-2026",
+    "receiving_course_key": "MATH32A",
+    "receiving_title": "Calculus of Several Variables",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "MATH250"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "ee_ucla",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "ucla",
+    "academic_year": "2025-2026",
+    "receiving_course_key": "MATH32B",
+    "receiving_title": "Calculus of Several Variables",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "MATH250"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "ee_ucla",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "ucla",
+    "academic_year": "2025-2026",
+    "receiving_course_key": "MATH33A",
+    "receiving_title": "Linear Algebra and Applications",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "MATH220"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "ee_ucla",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "ucla",
+    "academic_year": "2025-2026",
+    "receiving_course_key": "MATH33B",
+    "receiving_title": "Differential Equations",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "MATH230"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "ee_ucla",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "ucla",
+    "academic_year": "2025-2026",
+    "receiving_course_key": "ENGCOMP3",
+    "receiving_title": "English Composition, Rhetoric, and Language",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "ENGLC1000"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "ee_ucla",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "ucla",
+    "academic_year": "2025-2026",
+    "receiving_course_key": "COMSCI31",
+    "receiving_title": "Introduction to Computer Science I",
+    "status": "not_articulated",
+    "sending_options": [],
+    "reason": "No Course Articulated"
+  },
+  {
+    "major_key": "ee_ucla",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "ucla",
+    "academic_year": "2025-2026",
+    "receiving_course_key": "COMSCI32",
+    "receiving_title": "Introduction to Computer Science II",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "CS130"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "ee_ucla",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "ucla",
+    "academic_year": "2025-2026",
+    "receiving_course_key": "ECENGR10",
+    "receiving_title": "Circuit Theory I",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "ENGR230"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "ee_ucla",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "ucla",
+    "academic_year": "2025-2026",
+    "receiving_course_key": "ECENGR11L",
+    "receiving_title": "Circuits Laboratory I",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "ENGR230"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "ee_ucla",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "ucla",
+    "academic_year": "2025-2026",
+    "receiving_course_key": "ECENGRM16",
+    "receiving_title": "Logic Design of Digital Systems",
+    "status": "not_articulated",
+    "sending_options": [],
+    "reason": "No Course Articulated"
+  },
+  {
+    "major_key": "ee_ucla",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "ucla",
+    "academic_year": "2025-2026",
+    "receiving_course_key": null,
+    "receiving_title": "PHYSICS 1A, PHYSICS 1B, PHYSICS 1C, PHYSICS 4AL, PHYSICS 4BL",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "PHYS110",
+        "PHYS120",
+        "PHYS211"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "me_ucla",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "ucla",
+    "academic_year": "2025-2026",
+    "receiving_course_key": "MATH31A",
+    "receiving_title": "Differential and Integral Calculus",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "MATH150"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "me_ucla",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "ucla",
+    "academic_year": "2025-2026",
+    "receiving_course_key": "MATH31B",
+    "receiving_title": "Integration and Infinite Series",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "MATH160"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "me_ucla",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "ucla",
+    "academic_year": "2025-2026",
+    "receiving_course_key": "MATH32A",
+    "receiving_title": "Calculus of Several Variables",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "MATH250"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "me_ucla",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "ucla",
+    "academic_year": "2025-2026",
+    "receiving_course_key": "MATH32B",
+    "receiving_title": "Calculus of Several Variables",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "MATH250"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "me_ucla",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "ucla",
+    "academic_year": "2025-2026",
+    "receiving_course_key": "MATH33A",
+    "receiving_title": "Linear Algebra and Applications",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "MATH220"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "me_ucla",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "ucla",
+    "academic_year": "2025-2026",
+    "receiving_course_key": "MECHAE82",
+    "receiving_title": "Mathematics of Engineering",
+    "status": "not_articulated",
+    "sending_options": [],
+    "reason": "Course(s) Denied"
+  },
+  {
+    "major_key": "me_ucla",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "ucla",
+    "academic_year": "2025-2026",
+    "receiving_course_key": "MECHAE94",
+    "receiving_title": "Introduction to Computer-Aided Design and Drafting",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "ENGR140"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "me_ucla",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "ucla",
+    "academic_year": "2025-2026",
+    "receiving_course_key": "ENGCOMP3",
+    "receiving_title": "English Composition, Rhetoric, and Language",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "ENGLC1000"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "me_ucla",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "ucla",
+    "academic_year": "2025-2026",
+    "receiving_course_key": "ECENGR100",
+    "receiving_title": "Electrical and Electronic Circuits",
+    "status": "not_articulated",
+    "sending_options": [],
+    "reason": "No Course Articulated"
+  },
+  {
+    "major_key": "me_ucla",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "ucla",
+    "academic_year": "2025-2026",
+    "receiving_course_key": "ECENGR110L",
+    "receiving_title": "Circuit Measurements Laboratory",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "ENGR230"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "me_ucla",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "ucla",
+    "academic_year": "2025-2026",
+    "receiving_course_key": "MATSCI104",
+    "receiving_title": "Science of Engineering Materials",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "ENGR130"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "me_ucla",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "ucla",
+    "academic_year": "2025-2026",
+    "receiving_course_key": "COMSCI31",
+    "receiving_title": "Introduction to Computer Science I",
+    "status": "not_articulated",
+    "sending_options": [],
+    "reason": "No Course Articulated"
+  },
+  {
+    "major_key": "me_ucla",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "ucla",
+    "academic_year": "2025-2026",
+    "receiving_course_key": "CEEM20",
+    "receiving_title": "Introduction to Computer Programming with MATLAB",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "ENGR125"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "me_ucla",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "ucla",
+    "academic_year": "2025-2026",
+    "receiving_course_key": null,
+    "receiving_title": "CHEM 20A, CHEM 20B, CHEM 20L",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "CHEM110",
+        "CHEM120"
+      ]
+    ],
+    "reason": null
+  },
+  {
+    "major_key": "me_ucla",
+    "sending_institution_id": "avc",
+    "receiving_institution_id": "ucla",
+    "academic_year": "2025-2026",
+    "receiving_course_key": null,
+    "receiving_title": "PHYSICS 1A, PHYSICS 1B, PHYSICS 1C, PHYSICS 4AL, PHYSICS 4BL",
+    "status": "articulated",
+    "sending_options": [
+      [
+        "PHYS110",
+        "PHYS120",
+        "PHYS211"
+      ]
+    ],
+    "reason": null
+  }
+]

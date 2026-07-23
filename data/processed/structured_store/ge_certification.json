@@ -1,0 +1,2518 @@
+[
+  {
+    "course_key": "COMMC1000",
+    "title": "Introduction to Public Speaking",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "1C",
+        "description": "Oral Communication"
+      }
+    ]
+  },
+  {
+    "course_key": "PSYCC1000",
+    "title": "Introduction to Psychology",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "POLSC1000",
+    "title": "American Government and Politics",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "ECON101",
+    "title": "Principles of Macroeconomics",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "ECON102",
+    "title": "Principles of Microeconomics",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "HIST107",
+    "title": "U.S. History, 1607-1877",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "ASTR101",
+    "title": "Astronomy",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "5A",
+        "description": "Physical Science"
+      }
+    ]
+  },
+  {
+    "course_key": "SOC101",
+    "title": "Introduction to Sociology",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "FTV201",
+    "title": "Intercultural and Women's Film",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3A",
+        "description": "Arts"
+      },
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "ANTH102",
+    "title": "Introduction to Cultural Anthropology",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "ANTH140",
+    "title": "Introduction to Archaeology",
+    "min_units": 4.0,
+    "max_units": 4.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "MUS101",
+    "title": "Music Appreciation",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3A",
+        "description": "Arts"
+      }
+    ]
+  },
+  {
+    "course_key": "COMM217",
+    "title": "Gender and Communication",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "COMM114",
+    "title": "The Art of Storytelling",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "ECON110",
+    "title": "Economics of the Underclass",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "PHIL105",
+    "title": "Ethics: Moral Issues in Contemporary Society",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "PHIL201",
+    "title": "Critical Thinking",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "1B",
+        "description": "Critical Thinking and Composition"
+      }
+    ]
+  },
+  {
+    "course_key": "PHIL108",
+    "title": "Philosophy of Religion",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "PHIL106",
+    "title": "Introduction to Philosophy",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "HIST115",
+    "title": "Cultural History of Mexico",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "HIST119",
+    "title": "History of Latin America and the Caribbean",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      },
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "HIST114",
+    "title": "History of California",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "HIST113",
+    "title": "Women in American History",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      },
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "PSY235",
+    "title": "Child Psychology",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "PSY212",
+    "title": "Human Sexuality",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "PSY201",
+    "title": "Introduction to Physiological Psychology",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "POLS203",
+    "title": "The Judicial Process",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "POLS201",
+    "title": "Contemporary International Relations",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "POLS103",
+    "title": "Comparative Government",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "AJ206",
+    "title": "Criminology",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "PSY230",
+    "title": "Social Psychology",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "PSY232",
+    "title": "Theories of Personality",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "PSY233",
+    "title": "Personal and Social Adjustment",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "FREN203",
+    "title": "Advanced French",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "THA239",
+    "title": "Intercultural and Women's Theatre",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "DFST106",
+    "title": "Introduction to Deaf Education",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "GEOG105",
+    "title": "Cultural Geography",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "GEOL102",
+    "title": "Historical Geology",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "5A",
+        "description": "Physical Science"
+      }
+    ]
+  },
+  {
+    "course_key": "GEOL101",
+    "title": "Physical Geology",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "5A",
+        "description": "Physical Science"
+      }
+    ]
+  },
+  {
+    "course_key": "BIOL104",
+    "title": "Environmental Biology",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "5B",
+        "description": "Biological Science"
+      }
+    ]
+  },
+  {
+    "course_key": "SOC105",
+    "title": "The Mexican American in Contemporary Society",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "SOC115",
+    "title": "Marriage and Family Life",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "SOC110",
+    "title": "Ethnic Relations",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "SOC112",
+    "title": "American Social Issues: Problems and Challenges",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "BIOL204",
+    "title": "General Microbiology",
+    "min_units": 5.0,
+    "max_units": 5.0,
+    "areas": [
+      {
+        "code": "5C",
+        "description": "Laboratory"
+      },
+      {
+        "code": "5B",
+        "description": "Biological Science"
+      }
+    ]
+  },
+  {
+    "course_key": "BIOL201",
+    "title": "General Human Anatomy",
+    "min_units": 4.0,
+    "max_units": 4.0,
+    "areas": [
+      {
+        "code": "5B",
+        "description": "Biological Science"
+      },
+      {
+        "code": "5C",
+        "description": "Laboratory"
+      }
+    ]
+  },
+  {
+    "course_key": "BIOL202",
+    "title": "General Human Physiology",
+    "min_units": 4.0,
+    "max_units": 4.0,
+    "areas": [
+      {
+        "code": "5B",
+        "description": "Biological Science"
+      },
+      {
+        "code": "5C",
+        "description": "Laboratory"
+      }
+    ]
+  },
+  {
+    "course_key": "ART100",
+    "title": "Art Appreciation",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3A",
+        "description": "Arts"
+      }
+    ]
+  },
+  {
+    "course_key": "MATH150",
+    "title": "Calculus and Analytic Geometry",
+    "min_units": 5.0,
+    "max_units": 5.0,
+    "areas": [
+      {
+        "code": "2",
+        "description": "Mathematical Concepts and Quantitative Reasoning"
+      }
+    ]
+  },
+  {
+    "course_key": "ENGL225",
+    "title": "English Literature, 800-1750",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "GEOG106",
+    "title": "California Geography",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "PSCI101",
+    "title": "Physical Science",
+    "min_units": 4.0,
+    "max_units": 4.0,
+    "areas": [
+      {
+        "code": "5A",
+        "description": "Physical Science"
+      },
+      {
+        "code": "5C",
+        "description": "Laboratory"
+      }
+    ]
+  },
+  {
+    "course_key": "MUS105",
+    "title": "World Music",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3A",
+        "description": "Arts"
+      }
+    ]
+  },
+  {
+    "course_key": "THA110",
+    "title": "Fundamentals of Acting",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3A",
+        "description": "Arts"
+      }
+    ]
+  },
+  {
+    "course_key": "DA113",
+    "title": "World Dance - Ethnic Forms",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3A",
+        "description": "Arts"
+      }
+    ]
+  },
+  {
+    "course_key": "DA101",
+    "title": "Dance Appreciation",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3A",
+        "description": "Arts"
+      }
+    ]
+  },
+  {
+    "course_key": "PSY234",
+    "title": "Abnormal Psychology",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "PHYS102",
+    "title": "Introductory Physics",
+    "min_units": 4.0,
+    "max_units": 4.0,
+    "areas": [
+      {
+        "code": "5A",
+        "description": "Physical Science"
+      },
+      {
+        "code": "5C",
+        "description": "Laboratory"
+      }
+    ]
+  },
+  {
+    "course_key": "PHYS101",
+    "title": "Introductory Physics",
+    "min_units": 4.0,
+    "max_units": 4.0,
+    "areas": [
+      {
+        "code": "5A",
+        "description": "Physical Science"
+      },
+      {
+        "code": "5C",
+        "description": "Laboratory"
+      }
+    ]
+  },
+  {
+    "course_key": "MATH230",
+    "title": "Introduction to Ordinary Differential Equations",
+    "min_units": 4.0,
+    "max_units": 4.0,
+    "areas": [
+      {
+        "code": "2",
+        "description": "Mathematical Concepts and Quantitative Reasoning"
+      }
+    ]
+  },
+  {
+    "course_key": "MATH220",
+    "title": "Linear Algebra",
+    "min_units": 4.0,
+    "max_units": 4.0,
+    "areas": [
+      {
+        "code": "2",
+        "description": "Mathematical Concepts and Quantitative Reasoning"
+      }
+    ]
+  },
+  {
+    "course_key": "GER102",
+    "title": "Elementary German 2",
+    "min_units": 5.0,
+    "max_units": 5.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "PHOT107",
+    "title": "History of Photography",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "STATC1000",
+    "title": "Introduction to Statistics",
+    "min_units": 4.0,
+    "max_units": 4.0,
+    "areas": [
+      {
+        "code": "2",
+        "description": "Mathematical Concepts and Quantitative Reasoning"
+      }
+    ]
+  },
+  {
+    "course_key": "ART102",
+    "title": "History of Art, Renaissance to Modern",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3A",
+        "description": "Arts"
+      }
+    ]
+  },
+  {
+    "course_key": "ART101",
+    "title": "History of Art, Prehistoric to Gothic",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3A",
+        "description": "Arts"
+      }
+    ]
+  },
+  {
+    "course_key": "HIST110",
+    "title": "African American History, 1450-1877",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "HIST111",
+    "title": "African American History, 1877-Present",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "GEOG102",
+    "title": "Physical Geography: Earth's Weather and Climate",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "5A",
+        "description": "Physical Science"
+      }
+    ]
+  },
+  {
+    "course_key": "GEOG101L",
+    "title": "Physical Geography Lab: Earth's Surface Landscapes",
+    "min_units": 1.0,
+    "max_units": 1.0,
+    "areas": [
+      {
+        "code": "5C",
+        "description": "Laboratory"
+      }
+    ]
+  },
+  {
+    "course_key": "GEOG101",
+    "title": "Physical Geography: Earth's Surface Landscapes",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "5A",
+        "description": "Physical Science"
+      }
+    ]
+  },
+  {
+    "course_key": "BIOL103",
+    "title": "Introduction to Botany ",
+    "min_units": 4.0,
+    "max_units": 4.0,
+    "areas": [
+      {
+        "code": "5C",
+        "description": "Laboratory"
+      },
+      {
+        "code": "5B",
+        "description": "Biological Science"
+      }
+    ]
+  },
+  {
+    "course_key": "BIOL120",
+    "title": "General Organismal, Ecological and Evolutionary Biology",
+    "min_units": 5.0,
+    "max_units": 5.0,
+    "areas": [
+      {
+        "code": "5C",
+        "description": "Laboratory"
+      },
+      {
+        "code": "5B",
+        "description": "Biological Science"
+      }
+    ]
+  },
+  {
+    "course_key": "BIOL110",
+    "title": "General Molecular Cell Biology",
+    "min_units": 5.0,
+    "max_units": 5.0,
+    "areas": [
+      {
+        "code": "5B",
+        "description": "Biological Science"
+      },
+      {
+        "code": "5C",
+        "description": "Laboratory"
+      }
+    ]
+  },
+  {
+    "course_key": "BIOL102",
+    "title": "Human Biology ",
+    "min_units": 4.0,
+    "max_units": 4.0,
+    "areas": [
+      {
+        "code": "5C",
+        "description": "Laboratory"
+      },
+      {
+        "code": "5B",
+        "description": "Biological Science"
+      }
+    ]
+  },
+  {
+    "course_key": "CHEM110",
+    "title": "General Chemistry ",
+    "min_units": 5.0,
+    "max_units": 5.0,
+    "areas": [
+      {
+        "code": "5C",
+        "description": "Laboratory"
+      },
+      {
+        "code": "5A",
+        "description": "Physical Science"
+      }
+    ]
+  },
+  {
+    "course_key": "CHEM120",
+    "title": "General Chemistry ",
+    "min_units": 5.0,
+    "max_units": 5.0,
+    "areas": [
+      {
+        "code": "5A",
+        "description": "Physical Science"
+      },
+      {
+        "code": "5C",
+        "description": "Laboratory"
+      }
+    ]
+  },
+  {
+    "course_key": "HIST104",
+    "title": "Introduction to World Civilizations, from Human Beginnings Until 1500",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      },
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "HIST105",
+    "title": "Introduction to World Civilizations, 1500 - Present",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      },
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "CHEM101",
+    "title": "Introductory Chemistry ",
+    "min_units": 5.0,
+    "max_units": 5.0,
+    "areas": [
+      {
+        "code": "5C",
+        "description": "Laboratory"
+      },
+      {
+        "code": "5A",
+        "description": "Physical Science"
+      }
+    ]
+  },
+  {
+    "course_key": "PHYS211",
+    "title": "General Physics",
+    "min_units": 5.0,
+    "max_units": 5.0,
+    "areas": [
+      {
+        "code": "5A",
+        "description": "Physical Science"
+      },
+      {
+        "code": "5C",
+        "description": "Laboratory"
+      }
+    ]
+  },
+  {
+    "course_key": "ASTR101L",
+    "title": "Astronomy Laboratory",
+    "min_units": 1.0,
+    "max_units": 1.0,
+    "areas": [
+      {
+        "code": "5C",
+        "description": "Laboratory"
+      }
+    ]
+  },
+  {
+    "course_key": "HIST118",
+    "title": "American West History, 1806-Present",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "FTV101",
+    "title": "Introduction to Film",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3A",
+        "description": "Arts"
+      }
+    ]
+  },
+  {
+    "course_key": "LATN102",
+    "title": "Elementary Latin 2",
+    "min_units": 5.0,
+    "max_units": 5.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "CHIN102",
+    "title": "Elementary Chinese 2",
+    "min_units": 5.0,
+    "max_units": 5.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "FREN201",
+    "title": "Intermediate French 1",
+    "min_units": 5.0,
+    "max_units": 5.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "FREN202",
+    "title": "Intermediate French 2",
+    "min_units": 5.0,
+    "max_units": 5.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "ART104",
+    "title": "History of Modern and Contemporary Art in the 20th Century",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3A",
+        "description": "Arts"
+      }
+    ]
+  },
+  {
+    "course_key": "FREN102",
+    "title": "Elementary French 2",
+    "min_units": 5.0,
+    "max_units": 5.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "MUSC107",
+    "title": "History of Women in Rock Music",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3A",
+        "description": "Arts"
+      }
+    ]
+  },
+  {
+    "course_key": "MUSC103",
+    "title": "History of Rock 'n Roll",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3A",
+        "description": "Arts"
+      }
+    ]
+  },
+  {
+    "course_key": "MUSC102",
+    "title": "History of Jazz",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3A",
+        "description": "Arts"
+      }
+    ]
+  },
+  {
+    "course_key": "FTV251",
+    "title": "Contemporary American Independent Film",
+    "min_units": 4.0,
+    "max_units": 4.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "GEOL101L",
+    "title": "Physical Geology Lab",
+    "min_units": 1.0,
+    "max_units": 1.0,
+    "areas": [
+      {
+        "code": "5C",
+        "description": "Laboratory"
+      }
+    ]
+  },
+  {
+    "course_key": "PSY236",
+    "title": "Developmental Psychology",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "FTV107",
+    "title": "History of Film, Pre 1950",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3A",
+        "description": "Arts"
+      }
+    ]
+  },
+  {
+    "course_key": "FTV108",
+    "title": "History of Film, 1950-Present",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3A",
+        "description": "Arts"
+      }
+    ]
+  },
+  {
+    "course_key": "ENGL221",
+    "title": "American Literature: 1400-1865",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "ENGL222",
+    "title": "American Literature: 1865-Present",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "CFE103",
+    "title": "The Child in Family and Community Relationships",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "ENGLC1001",
+    "title": "Critical Thinking and Writing",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "1B",
+        "description": "Critical Thinking and Composition"
+      }
+    ]
+  },
+  {
+    "course_key": "ENGL259",
+    "title": "Gender, Image and Rhetoric",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "SPAN201",
+    "title": "Intermediate Spanish 1",
+    "min_units": 5.0,
+    "max_units": 5.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "SPAN202",
+    "title": "Intermediate Spanish 2",
+    "min_units": 5.0,
+    "max_units": 5.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "POLS200",
+    "title": "Introduction to Political Theory",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "CHEM102",
+    "title": "Introductory Chemistry (Organic & Biochemistry) ",
+    "min_units": 4.0,
+    "max_units": 4.0,
+    "areas": [
+      {
+        "code": "5C",
+        "description": "Laboratory"
+      },
+      {
+        "code": "5A",
+        "description": "Physical Science"
+      }
+    ]
+  },
+  {
+    "course_key": "ECON100",
+    "title": "Survey of Economics",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "PHIL109",
+    "title": "World Religions",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "THA101",
+    "title": "Introduction to Theatre",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3A",
+        "description": "Arts"
+      }
+    ]
+  },
+  {
+    "course_key": "ENGL227",
+    "title": "English Literature, 1750-Present",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "ENGL230",
+    "title": "World Literature 1",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "ENGL231",
+    "title": "World Literature 2",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "ENGL253",
+    "title": "African American Literature",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "LATN201",
+    "title": "Intermediate Latin",
+    "min_units": 5.0,
+    "max_units": 5.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "GEOL102L",
+    "title": "Historical Geology Lab",
+    "min_units": 1.0,
+    "max_units": 1.0,
+    "areas": [
+      {
+        "code": "5C",
+        "description": "Laboratory"
+      }
+    ]
+  },
+  {
+    "course_key": "MATH148",
+    "title": "Calculus for Business & Economics",
+    "min_units": 4.0,
+    "max_units": 4.0,
+    "areas": [
+      {
+        "code": "2",
+        "description": "Mathematical Concepts and Quantitative Reasoning"
+      }
+    ]
+  },
+  {
+    "course_key": "MATH124",
+    "title": "Finite Math",
+    "min_units": 4.0,
+    "max_units": 4.0,
+    "areas": [
+      {
+        "code": "2",
+        "description": "Mathematical Concepts and Quantitative Reasoning"
+      }
+    ]
+  },
+  {
+    "course_key": "PSY200",
+    "title": "Introduction to Research Methods in Psychology",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "GEOG110",
+    "title": "World Regional Geography",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "SOC116",
+    "title": "Sociology of Gender and Sexuality",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "MATH250",
+    "title": "Calculus and Analytic Geometry",
+    "min_units": 4.0,
+    "max_units": 4.0,
+    "areas": [
+      {
+        "code": "2",
+        "description": "Mathematical Concepts and Quantitative Reasoning"
+      }
+    ]
+  },
+  {
+    "course_key": "MATH160",
+    "title": "Calculus and Analytic Geometry",
+    "min_units": 4.0,
+    "max_units": 4.0,
+    "areas": [
+      {
+        "code": "2",
+        "description": "Mathematical Concepts and Quantitative Reasoning"
+      }
+    ]
+  },
+  {
+    "course_key": "GER202",
+    "title": "Intermediate German 2",
+    "min_units": 4.0,
+    "max_units": 4.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "GER201",
+    "title": "Intermediate German 1",
+    "min_units": 4.0,
+    "max_units": 4.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "HIST108",
+    "title": "U.S. History from 1865",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "SPAN220SS",
+    "title": "Composition and Conversation for Spanish Speakers",
+    "min_units": 5.0,
+    "max_units": 5.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "SPAN210SS",
+    "title": "Spanish for Heritage Speakers II",
+    "min_units": 5.0,
+    "max_units": 5.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "SPAN110SS",
+    "title": "Spanish for Heritage Speakers I",
+    "min_units": 5.0,
+    "max_units": 5.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "SPAN203",
+    "title": "Introduction to Hispanic Literature",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "MATH128",
+    "title": "College Algebra for Liberal Arts",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "2",
+        "description": "Mathematical Concepts and Quantitative Reasoning"
+      }
+    ]
+  },
+  {
+    "course_key": "BIOL101",
+    "title": "General Biology",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "5B",
+        "description": "Biological Science"
+      }
+    ]
+  },
+  {
+    "course_key": "PHYS110",
+    "title": "General Physics",
+    "min_units": 4.0,
+    "max_units": 4.0,
+    "areas": [
+      {
+        "code": "5C",
+        "description": "Laboratory"
+      },
+      {
+        "code": "5A",
+        "description": "Physical Science"
+      }
+    ]
+  },
+  {
+    "course_key": "PHYS120",
+    "title": "General Physics",
+    "min_units": 4.0,
+    "max_units": 4.0,
+    "areas": [
+      {
+        "code": "5C",
+        "description": "Laboratory"
+      },
+      {
+        "code": "5A",
+        "description": "Physical Science"
+      }
+    ]
+  },
+  {
+    "course_key": "SOC111",
+    "title": "Issues and Concepts in Aging",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "SOC120",
+    "title": "Drugs, Society and Human Behavior",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "GEOG102L",
+    "title": "Physical Geography Lab: Earth's Weather and Climate",
+    "min_units": 1.0,
+    "max_units": 1.0,
+    "areas": [
+      {
+        "code": "5C",
+        "description": "Laboratory"
+      }
+    ]
+  },
+  {
+    "course_key": "BIOL205",
+    "title": "Introduction to Biotechnology",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "5C",
+        "description": "Laboratory"
+      },
+      {
+        "code": "5B",
+        "description": "Biological Science"
+      }
+    ]
+  },
+  {
+    "course_key": "BIOL101L",
+    "title": "General Biology Lab",
+    "min_units": 1.0,
+    "max_units": 1.0,
+    "areas": [
+      {
+        "code": "5C",
+        "description": "Laboratory"
+      }
+    ]
+  },
+  {
+    "course_key": "THA225",
+    "title": "Script Analysis",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3A",
+        "description": "Arts"
+      }
+    ]
+  },
+  {
+    "course_key": "HIST116",
+    "title": "Contemporary U.S. History: From Vietnam to Iraq",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "MATH116",
+    "title": "Introduction to Statistics Using R",
+    "min_units": 4.0,
+    "max_units": 4.0,
+    "areas": [
+      {
+        "code": "2",
+        "description": "Mathematical Concepts and Quantitative Reasoning"
+      }
+    ]
+  },
+  {
+    "course_key": "ART106",
+    "title": "History of Art: Asia",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3A",
+        "description": "Arts"
+      }
+    ]
+  },
+  {
+    "course_key": "ANTH103",
+    "title": "Archaeology and World Prehistory",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "ANTH101",
+    "title": "Introduction to Biological Anthropology",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "5B",
+        "description": "Biological Science"
+      }
+    ]
+  },
+  {
+    "course_key": "POLS202",
+    "title": "Ethnic Politics in America",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "DFST105",
+    "title": "Introduction to American Deaf Culture",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "ERSC101",
+    "title": "Introduction to Earth Science",
+    "min_units": 4.0,
+    "max_units": 4.0,
+    "areas": [
+      {
+        "code": "5A",
+        "description": "Physical Science"
+      },
+      {
+        "code": "5C",
+        "description": "Laboratory"
+      }
+    ]
+  },
+  {
+    "course_key": "ANTH101L",
+    "title": "Biological Anthropology Laboratory",
+    "min_units": 1.0,
+    "max_units": 1.0,
+    "areas": [
+      {
+        "code": "5C",
+        "description": "Laboratory"
+      }
+    ]
+  },
+  {
+    "course_key": "MUSC108",
+    "title": "History of Hip Hop ",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3A",
+        "description": "Arts"
+      }
+    ]
+  },
+  {
+    "course_key": "MATH110",
+    "title": "Mathematics for Liberal Arts Students",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "2",
+        "description": "Mathematical Concepts and Quantitative Reasoning"
+      }
+    ]
+  },
+  {
+    "course_key": "MATH140",
+    "title": "Precalculus ",
+    "min_units": 4.0,
+    "max_units": 4.0,
+    "areas": [
+      {
+        "code": "2",
+        "description": "Mathematical Concepts and Quantitative Reasoning"
+      }
+    ]
+  },
+  {
+    "course_key": "ENGL265",
+    "title": "Film: Text and Context",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "ENGL256",
+    "title": "Latinx Literature",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "ENGL242",
+    "title": "Narrative and Culture",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "ENGL235",
+    "title": "Shakespeare and Culture ",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3A",
+        "description": "Arts"
+      },
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "BUS212",
+    "title": "Women and Minorities in Business",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "ENGL279",
+    "title": "Science Fiction and Dystopian Literature",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "FTV203",
+    "title": "African-American Cinema",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      },
+      {
+        "code": "3A",
+        "description": "Arts"
+      }
+    ]
+  },
+  {
+    "course_key": "ART103",
+    "title": "History of Art: Africa, Oceania, and Indigenous North America",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3A",
+        "description": "Arts"
+      }
+    ]
+  },
+  {
+    "course_key": "THA111",
+    "title": "Theatre History I",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3A",
+        "description": "Arts"
+      }
+    ]
+  },
+  {
+    "course_key": "ENGL257",
+    "title": "Ethnic Studies: Native American Studies in Literature",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      },
+      {
+        "code": "6",
+        "description": "Ethnic Studies"
+      }
+    ]
+  },
+  {
+    "course_key": "CFE102",
+    "title": "The Developing Child - Child Growth and Development",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "ETHN257EN",
+    "title": "Ethnic Studies: Native American Studies in Literature",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      },
+      {
+        "code": "6",
+        "description": "Ethnic Studies"
+      }
+    ]
+  },
+  {
+    "course_key": "SOC200",
+    "title": "Research Methods for the Social Sciences",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "DFST110",
+    "title": "Power, Privilege, and Oppression",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "ANTH112",
+    "title": "Native North Americans",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "ETHN101",
+    "title": "Introduction to Ethnic Studies",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "6",
+        "description": "Ethnic Studies"
+      }
+    ]
+  },
+  {
+    "course_key": "CHEM210",
+    "title": "Organic Chemistry",
+    "min_units": 5.0,
+    "max_units": 5.0,
+    "areas": [
+      {
+        "code": "5C",
+        "description": "Laboratory"
+      },
+      {
+        "code": "5A",
+        "description": "Physical Science"
+      }
+    ]
+  },
+  {
+    "course_key": "CHEM220",
+    "title": "Organic Chemistry",
+    "min_units": 5.0,
+    "max_units": 5.0,
+    "areas": [
+      {
+        "code": "5C",
+        "description": "Laboratory"
+      },
+      {
+        "code": "5A",
+        "description": "Physical Science"
+      }
+    ]
+  },
+  {
+    "course_key": "ENGLC1000",
+    "title": "Academic Reading and Writing",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "1A",
+        "description": "English Composition"
+      }
+    ]
+  },
+  {
+    "course_key": "ANTH112H",
+    "title": "Native North Americans Honors",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "ENGLC1000H",
+    "title": "Academic Reading and Writing - Honors",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "1A",
+        "description": "English Composition"
+      }
+    ]
+  },
+  {
+    "course_key": "ENGLC1001H",
+    "title": "Critical Thinking and Writing - Honors",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "1B",
+        "description": "Critical Thinking and Composition"
+      }
+    ]
+  },
+  {
+    "course_key": "COMMC1000H",
+    "title": "Introduction to Public Speaking - Honors",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "1C",
+        "description": "Oral Communication"
+      }
+    ]
+  },
+  {
+    "course_key": "POLSC1000H",
+    "title": "American Government and Politics - Honors",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "PSYCC1000H",
+    "title": "Introduction to Psychology - Honors",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "STATC1000H",
+    "title": "Introduction to Statistics - Honors",
+    "min_units": 4.0,
+    "max_units": 4.0,
+    "areas": [
+      {
+        "code": "2",
+        "description": "Mathematical Concepts and Quantitative Reasoning"
+      }
+    ]
+  },
+  {
+    "course_key": "HIST108H",
+    "title": "U.S. History from 1865 Honors",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "PHIL130",
+    "title": "History of Ancient and Medieval Philosophy",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "PHIL140",
+    "title": "History of Modern Philosophy",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "HIST107H",
+    "title": "U.S. History from 1607-1877 Honors",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "SOC101H",
+    "title": "Introduction to Sociology - Honors",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "ANTH110",
+    "title": "Latin American & Caribbean Cultures",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "MUSC109",
+    "title": "History of Motown Music",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3A",
+        "description": "Arts"
+      }
+    ]
+  },
+  {
+    "course_key": "ETHN102",
+    "title": "Introduction to Chicana and Chicano Studies",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "6",
+        "description": "Ethnic Studies"
+      }
+    ]
+  },
+  {
+    "course_key": "MUS106",
+    "title": "African American Music",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3A",
+        "description": "Arts"
+      }
+    ]
+  },
+  {
+    "course_key": "MUS110",
+    "title": "Music of Latin America",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3A",
+        "description": "Arts"
+      }
+    ]
+  },
+  {
+    "course_key": "MUS101H",
+    "title": "Music Appreciation Honors",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3A",
+        "description": "Arts"
+      }
+    ]
+  },
+  {
+    "course_key": "ANTH101H",
+    "title": "Biological Anthropology Honors",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "5B",
+        "description": "Biological Science"
+      }
+    ]
+  },
+  {
+    "course_key": "THA101H",
+    "title": "Introduction to Theatre Honors",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3A",
+        "description": "Arts"
+      }
+    ]
+  },
+  {
+    "course_key": "THA239H",
+    "title": "Intercultural and Women's Theatre Honors",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "ENGL253H",
+    "title": "African American Literature Honors",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "PHIL105H",
+    "title": "Ethics: Moral Issues in Society Honors",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "HIST111H",
+    "title": "African-American History, 1877-Present Honors",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "3B",
+        "description": "Humanities"
+      },
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      }
+    ]
+  },
+  {
+    "course_key": "HIST110H",
+    "title": "African-American History, 1450-1877 Honors",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "4",
+        "description": "Social and Behavioral Sciences"
+      },
+      {
+        "code": "3B",
+        "description": "Humanities"
+      }
+    ]
+  },
+  {
+    "course_key": "GEOL101H",
+    "title": "Physical Geology Honors",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "5A",
+        "description": "Physical Science"
+      }
+    ]
+  },
+  {
+    "course_key": "MATH150H",
+    "title": "Calculus & Analytic Geometry Honors",
+    "min_units": 5.0,
+    "max_units": 5.0,
+    "areas": [
+      {
+        "code": "2",
+        "description": "Mathematical Concepts and Quantitative Reasoning"
+      }
+    ]
+  },
+  {
+    "course_key": "BIOL104H",
+    "title": "Environmental Biology Honors",
+    "min_units": 3.0,
+    "max_units": 3.0,
+    "areas": [
+      {
+        "code": "5B",
+        "description": "Biological Science"
+      }
+    ]
+  }
+]

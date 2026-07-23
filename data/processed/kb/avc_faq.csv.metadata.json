@@ -1,0 +1,28 @@
+{
+  "documentStructureConfiguration": {
+    "type": "RECORD_BASED_STRUCTURE_METADATA",
+    "recordBasedStructureMetadata": {
+      "contentFields": [
+        {
+          "fieldName": "content"
+        }
+      ],
+      "metadataFieldsSpecification": {
+        "fieldsToInclude": [
+          {
+            "fieldName": "question"
+          },
+          {
+            "fieldName": "source"
+          },
+          {
+            "fieldName": "institution"
+          },
+          {
+            "fieldName": "academic_year"
+          }
+        ]
+      }
+    }
+  }
+}
