@@ -1,0 +1,9 @@
+# App theme: #64B5F6 (Material Blue 300) as the accent, mixed toward white.
+# secondaryBackgroundColor is #64B5F6 lightened toward white (used for the
+# user's chat bubbles, the attach control, etc.), on a white base.
+[theme]
+primaryColor = "#64B5F6"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#E3F2FD"
+textColor = "#12324F"
+font = "sans serif"
