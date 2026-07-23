@@ -8,12 +8,15 @@ A Streamlit demonstration that combines:
 - managed Amazon Bedrock Knowledge Base agentic retrieval for catalog,
   destination GE policy, Cal-GETC options, combined pathways, and advising
   prose;
+- one stateless AgentCore Gateway Lambda target for current AVC Banner
+  sections and deterministic plan validation;
 - a deterministic validator for model-proposed plans. The validator checks
   facts and student constraints; it does not generate a schedule;
 - Streamlit as a thin demo client.
 
-Lambda, DynamoDB, FastAPI, and the React frontend are intentionally not part of
-the demo architecture.
+DynamoDB, FastAPI, and the React frontend are intentionally not part of the
+demo architecture. The single Lambda is a stateless tool target; it does not
+own sessions or agent orchestration.
 
 ## Architecture
 
@@ -22,8 +25,11 @@ Streamlit
   └─ Amazon Bedrock AgentCore Harness
        ├─ managed conversation memory and model-led student interview
        └─ AgentCore Gateway
-            └─ AgenticRetrieveStream -> managed Knowledge Base
-                 (major preparation + destination GE policy + Cal-GETC)
+            ├─ AgenticRetrieveStream -> managed Knowledge Base
+            │    (major preparation + destination GE policy + Cal-GETC)
+            └─ advisor-tools Lambda
+                 ├─ live AVC Banner section availability
+                 └─ deterministic exact-draft validation
 ```
 
 The Knowledge Base receives readable, generated projections of articulation
@@ -32,9 +38,9 @@ and general education. The model designs an individualized plan only after it
 has learned the student's goals and constraints. Deterministic code validates
 the exact proposal; there is no fixed or greedy plan template.
 
-The managed KB flow is deployed. The validator is implemented locally and is
-the next Gateway MCP target; until that target is attached, the Harness is
-configured not to emit a term-by-term schedule.
+The deployer creates or updates both Gateway targets. Live Banner results are
+queried at tool-call time and include a retrieval timestamp; mutable seat and
+waitlist counts are never placed in the Knowledge Base.
 
 ## Setup
 
@@ -93,7 +99,7 @@ answers.
 
 ```bash
 .venv/bin/python -m unittest discover -s tests
-.venv/bin/python -m compileall -q src scripts streamlit_app.py tests
+.venv/bin/python -m compileall -q src agentcore infra scripts streamlit_app.py tests
 ```
 
 The advising output is a planning aid, not a registration guarantee. Verify
