@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "transfer-advisor"
+version = "0.0.1"
+description = "AWS-first transfer and pathway advising assistant"
+requires-python = ">=3.12"
+dependencies = ["requests", "boto3", "pdfplumber", "streamlit"]
+
+[project.optional-dependencies]
+dev = ["ruff"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100

@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+dist/
+build/
+*.egg-info/
+
+# Data products
+data/raw/
+# Intermediate transforms stay local/S3. The small published runtime store and
+# KB documents are versioned so a clean clone can run tests and Streamlit.
+data/processed/*
+!data/processed/structured_store/
+!data/processed/structured_store/**
+!data/processed/kb/
+!data/processed/kb/**
+data/local/
+*.parquet
+*.sqlite
+*.sqlite3
+
+# AWS and infrastructure state
+.aws-sam/
+.terraform/
+*.tfstate
+*.tfstate.*
+samconfig.toml
+
+# Local secrets and OS/editor files
+.env
+.env.*
+!.env.example
+.DS_Store
+.idea/
+.vscode/
+
+# Local AI-assistant state
+.codex/
+.agents/
+.claude/
+CODEX.md
+
+# Removed local planning artifact
+/Use Cases.pdf
