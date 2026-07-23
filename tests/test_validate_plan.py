@@ -115,6 +115,23 @@ class ValidateProposedPlanTest(unittest.TestCase):
         warning_codes = {warning["code"] for warning in result["warnings"]}
         self.assertIn("ge_evidence_not_certification", warning_codes)
 
+    def test_flags_short_session_above_six_units_for_reconsideration(self) -> None:
+        result = validate_proposed_plan(
+            major="me_ucla",
+            completed_courses=[],
+            terms=[
+                {
+                    "term": "Summer 2026",
+                    "term_type": "summer",
+                    "courses": ["MATH150", "ART100"],
+                }
+            ],
+        )
+
+        warning_codes = {warning["code"] for warning in result["warnings"]}
+        self.assertGreater(result["terms"][0]["known_units"], 6)
+        self.assertIn("accelerated_short_term_load", warning_codes)
+
 
 if __name__ == "__main__":
     unittest.main()

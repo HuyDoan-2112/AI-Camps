@@ -19,6 +19,7 @@ from transfer_advisor.tools.structured_store import (
 
 _VALID_TERM_TYPES = {"fall", "spring", "summer", "winter"}
 _HEDGE_PATTERNS = {"alternating_years", "irregular", "insufficient_data"}
+_DEFAULT_SHORT_TERM_UNIT_LIMIT = 6.0
 
 
 def _normalize_course_key(value: str) -> str:
@@ -268,6 +269,22 @@ def validate_proposed_plan(
                     "message": (
                         f"{label} has {term_units:g} known units, above the "
                         f"student's {max_units_per_term:g}-unit maximum."
+                    ),
+                }
+            )
+        if (
+            term_type in {"summer", "winter"}
+            and term_units > _DEFAULT_SHORT_TERM_UNIT_LIMIT
+        ):
+            warnings.append(
+                {
+                    "code": "accelerated_short_term_load",
+                    "term": label,
+                    "message": (
+                        f"{label} has {term_units:g} known units. Summer and winter "
+                        f"plans normally stay at {_DEFAULT_SHORT_TERM_UNIT_LIMIT:g} "
+                        "units or fewer; confirm that the student explicitly prefers "
+                        "this accelerated load."
                     ),
                 }
             )
