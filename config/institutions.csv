@@ -1,0 +1,4 @@
+institution_id,name,system,role,assist_id,catalog_url,banner_base_url,active
+avc,Antelope Valley College,CCC,sending,121,https://www.avc.edu/,https://ssb.avc.edu/StudentRegistrationSsb/ssb,true
+ucla,University of California Los Angeles,UC,receiving,117,https://catalog.registrar.ucla.edu/,,true
+cpp,Cal Poly Pomona,CSU,receiving,75,https://catalog.cpp.edu/,,true
