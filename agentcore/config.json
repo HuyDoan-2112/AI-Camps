@@ -1,0 +1,20 @@
+{
+  "harness_name": "AvcTransferAdvisor",
+  "gateway_name": "avc-transfer-advisor",
+  "gateway_tool_name": "advisor-data",
+  "knowledge_base_target_name": "managed-kb",
+  "knowledge_base_generate_response": false,
+  "model_id": "us.anthropic.claude-sonnet-4-6",
+  "max_iterations": 8,
+  "max_tokens": 6000,
+  "timeout_seconds": 120,
+  "memory": {
+    "managedMemoryConfiguration": {
+      "strategies": [
+        "SUMMARIZATION",
+        "USER_PREFERENCE"
+      ],
+      "eventExpiryDuration": 30
+    }
+  }
+}
