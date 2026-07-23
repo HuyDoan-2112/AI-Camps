@@ -1,0 +1,86 @@
+[
+  {
+    "course_key": "MATH150",
+    "title": "Calculus and Analytic Geometry",
+    "units": 5,
+    "institution_id": "avc",
+    "catalog_year": "2025-26"
+  },
+  {
+    "course_key": "MATH160",
+    "title": "Calculus and Analytic Geometry",
+    "units": 4,
+    "institution_id": "avc",
+    "catalog_year": "2025-26"
+  },
+  {
+    "course_key": "MATH250",
+    "title": "Calculus and Analytic Geometry",
+    "units": 4,
+    "institution_id": "avc",
+    "catalog_year": "2025-26"
+  },
+  {
+    "course_key": "MATH230",
+    "title": "Introduction to Ordinary Differential Equations",
+    "units": 4,
+    "institution_id": "avc",
+    "catalog_year": "2025-26"
+  },
+  {
+    "course_key": "MATH220",
+    "title": "Linear Algebra",
+    "units": 4,
+    "institution_id": "avc",
+    "catalog_year": "2025-26"
+  },
+  {
+    "course_key": "PHYS110",
+    "title": "General Physics",
+    "units": 4,
+    "institution_id": "avc",
+    "catalog_year": "2025-26"
+  },
+  {
+    "course_key": "PHYS120",
+    "title": "General Physics",
+    "units": 4,
+    "institution_id": "avc",
+    "catalog_year": "2025-26"
+  },
+  {
+    "course_key": "CHEM110",
+    "title": "General Chemistry",
+    "units": 5,
+    "institution_id": "avc",
+    "catalog_year": "2025-26"
+  },
+  {
+    "course_key": "ENGR210",
+    "title": "Statics",
+    "units": 4,
+    "institution_id": "avc",
+    "catalog_year": "2025-26"
+  },
+  {
+    "course_key": "ENGR140",
+    "title": "Engineering 3D Graphics",
+    "units": 3,
+    "institution_id": "avc",
+    "catalog_year": "2025-26"
+  },
+  {
+    "course_key": "ENGR110",
+    "title": "Engineering Orientation and Basic Skills",
+    "units": 3,
+    "institution_id": "avc",
+    "catalog_year": "2025-26"
+  },
+  {
+    "course_key": "ENGR125",
+    "title": "Programming and Problem-Solving in MATLAB",
+    "units": 4,
+    "institution_id": "avc",
+    "catalog_year": "2025-26"
+  }
+]

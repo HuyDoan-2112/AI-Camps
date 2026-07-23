@@ -1,0 +1,137 @@
+{
+  "reviewed": true,
+  "review_provenance": "Claude proposed a read for each flagged clause; the project owner confirmed all of them in conversation, then independently verified all 12 courses row-by-row against AVC's live Banner catalog directly (2026-07-22).",
+  "courses": [
+    {
+      "course_key": "MATH150",
+      "requires_all_of": [],
+      "requires_one_of": [
+        "MATH140",
+        "MATH149"
+      ],
+      "corequisite_of": [],
+      "advisory_only": [],
+      "notes": "Or placement by multiple measures (non-course alternative, not encoded as a course edge)."
+    },
+    {
+      "course_key": "MATH160",
+      "requires_all_of": [],
+      "requires_one_of": [
+        "MATH150",
+        "MATH150H"
+      ],
+      "corequisite_of": [],
+      "advisory_only": [],
+      "notes": "Or placement by multiple measures."
+    },
+    {
+      "course_key": "MATH250",
+      "requires_all_of": [
+        "MATH160"
+      ],
+      "requires_one_of": [],
+      "corequisite_of": [],
+      "advisory_only": [],
+      "notes": ""
+    },
+    {
+      "course_key": "MATH230",
+      "requires_all_of": [
+        "MATH160"
+      ],
+      "requires_one_of": [],
+      "corequisite_of": [],
+      "advisory_only": [
+        "MATH220",
+        "MATH250"
+      ],
+      "notes": ""
+    },
+    {
+      "course_key": "MATH220",
+      "requires_all_of": [
+        "MATH160"
+      ],
+      "requires_one_of": [],
+      "corequisite_of": [],
+      "advisory_only": [],
+      "notes": ""
+    },
+    {
+      "course_key": "PHYS110",
+      "requires_all_of": [],
+      "requires_one_of": [],
+      "corequisite_of": [
+        "MATH150"
+      ],
+      "advisory_only": [
+        "PSCI101",
+        "ENGL101"
+      ],
+      "notes": ""
+    },
+    {
+      "course_key": "PHYS120",
+      "requires_all_of": [
+        "PHYS110"
+      ],
+      "requires_one_of": [],
+      "corequisite_of": [
+        "MATH160"
+      ],
+      "advisory_only": [
+        "ENGL101"
+      ],
+      "notes": "Raw text sat under one 'Corequisite:' label but was two sentences: 'Completion of PHYS 110.' (no concurrent-enrollment language -> treated as a hard prerequisite) and 'Completion of or concurrent enrollment in MATH 160.' (-> corequisite). Split on human review."
+    },
+    {
+      "course_key": "CHEM110",
+      "requires_all_of": [],
+      "requires_one_of": [],
+      "corequisite_of": [],
+      "advisory_only": [
+        "CHEM101"
+      ],
+      "notes": "Raw prerequisite text says 'Completion of Intermediate Algebra or higher or placement by multiple measures.' No AVC course titled or coded as Intermediate Algebra was found in the Banner backfill (checked MATH.json across all terms). Likely legacy catalog text predating AB 705's elimination of standalone remedial math courses. Treated as no hard course-level math prerequisite -- flag for a human to double check against AVC's current catalog if this matters for a specific student."
+    },
+    {
+      "course_key": "ENGR210",
+      "requires_all_of": [
+        "MATH160",
+        "PHYS110"
+      ],
+      "requires_one_of": [],
+      "corequisite_of": [],
+      "advisory_only": [],
+      "notes": ""
+    },
+    {
+      "course_key": "ENGR140",
+      "requires_all_of": [],
+      "requires_one_of": [
+        "MATH135"
+      ],
+      "corequisite_of": [],
+      "advisory_only": [],
+      "notes": "Raw text says 'MATH 135 or higher or placement by multiple measures.' Only MATH135 itself is encoded; any higher-numbered MATH course should also satisfy this in practice but isn't structurally captured. Low stakes -- ENGR140 doesn't gate any other course in this graph."
+    },
+    {
+      "course_key": "ENGR110",
+      "requires_all_of": [],
+      "requires_one_of": [],
+      "corequisite_of": [],
+      "advisory_only": [],
+      "notes": "No Prerequisite/Corequisite/Advisory clause found in the catalog text."
+    },
+    {
+      "course_key": "ENGR125",
+      "requires_all_of": [
+        "MATH150"
+      ],
+      "requires_one_of": [],
+      "corequisite_of": [],
+      "advisory_only": [],
+      "notes": ""
+    }
+  ]
+}

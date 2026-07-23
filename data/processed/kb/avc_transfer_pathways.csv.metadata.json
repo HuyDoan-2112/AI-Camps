@@ -1,0 +1,43 @@
+{
+  "documentStructureConfiguration": {
+    "type": "RECORD_BASED_STRUCTURE_METADATA",
+    "recordBasedStructureMetadata": {
+      "contentFields": [
+        {
+          "fieldName": "content"
+        }
+      ],
+      "metadataFieldsSpecification": {
+        "fieldsToInclude": [
+          {
+            "fieldName": "record_key"
+          },
+          {
+            "fieldName": "record_type"
+          },
+          {
+            "fieldName": "major_key"
+          },
+          {
+            "fieldName": "major_name"
+          },
+          {
+            "fieldName": "sending_institution"
+          },
+          {
+            "fieldName": "receiving_institution"
+          },
+          {
+            "fieldName": "source"
+          },
+          {
+            "fieldName": "institution"
+          },
+          {
+            "fieldName": "academic_year"
+          }
+        ]
+      }
+    }
+  }
+}
